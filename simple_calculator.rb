@@ -11,15 +11,15 @@ input = gets.chomp
 
 case input
 when "1"
-	puts "The first number multiplied by the second number is #{num_1.to_i * num_2.to_i}"
+	puts "The first number multiplied by the second number is #{num_1.to_f * num_2.to_f}"
 when "2"
-	puts "The first number divided by the second number is #{num_1.to_i / num_2.to_i}"
+	puts "The first number divided by the second number is #{num_1.to_f / num_2.to_f}"
 when "3"
-	puts "The first number added by the second number is #{num_1.to_i + num_2.to_i}"
+	puts "The first number added by the second number is #{num_1.to_f + num_2.to_f}"
 when "4"
-	puts "The first number subtracted by the second number is #{num_1.to_i - num_2.to_i}"
+	puts "The first number subtracted by the second number is #{num_1.to_f - num_2.to_f}"
 when "5"
-	puts "The modulus between the first number and the second is #{num_1.to_i % num_2.to_i}"
+	puts "The modulus between the first number and the second is #{num_1.to_f % num_2.to_f}"
 else
 	puts "You typed #{input} - type either 1, 2, 3 or 4 to get the correct answer"
 end
